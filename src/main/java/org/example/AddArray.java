@@ -6,7 +6,7 @@ import java.util.List;
 public class AddArray {
 
   public static Integer sumOfArray(List<Integer> ar) {
-    int sum = 0;
+    int sum = 0     ;
 
     for (int i = 0; i < ar.size(); i++) {
       sum = sum + ar.get(i);
